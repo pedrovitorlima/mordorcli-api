@@ -53,11 +53,6 @@ permissions:
   contents: read
 
 jobs:
-  build-terraform-backend:
-    name: 'Build terraform backend'
-    runs-on: ubuntu-latest
-    environment: production
-
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
